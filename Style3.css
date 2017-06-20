@@ -17,12 +17,6 @@ nav ul {
   margin-top: 25px;
 }
 
-nav{
-  display:inline;
-  font-size: 1em;
-  font-family: 'Source Sans Pro', sans-serif;
-} 
-
 h1{
   font-family: 'Roboto', sans-serif;
   color:  #AB4917;
@@ -50,12 +44,6 @@ a:hover {
   color: rgb(225, 0, 152);
 }
 
-#logo{
-  color: rgb(225, 0, 152);
-  font-size: 35px;
-  font-family: 'Pacifico', cursive;
-}
-
 /* Mis en forme de la baseline */
 #baseline{
   background-color: #00B2A7;
@@ -70,6 +58,10 @@ a:hover {
   font-size: 50px;
 }
 
+#baseline h2 {
+  font-size: 30px;
+}
+
 #baseline a {
   font-size: 30px;
   font-weight: lighter;
@@ -81,7 +73,7 @@ a:hover {
   top:1px;
 }
 
-<.feature,.defi{
+.feature,.defi{
   border: 1px solid #F2F2F2;
   background: #FAFAFA;
   margin: 15px;
@@ -120,3 +112,13 @@ a:hover {
  font-size: 50px;
 }
 
+#defis{
+  margin-top:100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1000px;
+
+}
