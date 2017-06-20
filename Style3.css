@@ -122,3 +122,16 @@ a:hover {
   max-width: 1000px;
 
 }
+
+footer {
+  text-align:center;
+  background-color: #AB4917;
+}
+
+
+
+footer p {
+   color: white;
+   margin: 0;
+   padding: 0;
+}
