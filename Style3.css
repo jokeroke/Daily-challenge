@@ -8,6 +8,15 @@ body{
   margin:0;
 }
 
+nav li {
+  margin: 10px;
+  display:inline;
+}
+nav ul {
+  float: left;
+  margin-top: 25px;
+}
+
 nav{
   display:inline;
   font-size: 1em;
@@ -67,6 +76,11 @@ a:hover {
   text-decoration: none;
 }
 
+#baseline a:hover {
+  position: relative;
+  top:1px;
+}
+
 <.feature,.defi{
   border: 1px solid #F2F2F2;
   background: #FAFAFA;
@@ -82,15 +96,9 @@ a:hover {
   display:flex;
   flex-wrap: wrap;
   justify-content: center;
+  max-width: 1000px;
 }
-nav li {
-  margin: 10px;
-  display:inline;
-}
-nav ul {
-  float: left;
-  margin-top: 25px;
-}
+
 
 #logo{
   color: #AB4917;
@@ -99,10 +107,7 @@ nav ul {
   float: left;
   margin-left: 50px;
 }
-#baseline a:hover {
-  position: relative;
-  top:1px;
-}
+
 
 #welcome{
   background-color: #41A3C0;
