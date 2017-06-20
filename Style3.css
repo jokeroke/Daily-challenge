@@ -19,7 +19,7 @@ nav ul {
 
 h1{
   font-family: 'Roboto', sans-serif;
-  color:  #AB4917;
+  color:  #fff;
   font-weight: bolder;
   font-size: 2em;
 }
@@ -36,7 +36,7 @@ p{
 }
 
 a { 
-  color: #AB4917;
+  color: #fff;
 }
 
 a:hover {
@@ -49,9 +49,12 @@ a:hover {
   background-color: #00B2A7;
   text-align: center;
   background-size: cover;
+  height: 400px;
   padding: 150px;
   color: white;
   text-shadow: 1px 1px 5px black;
+  background: url(http://images.jedessine.com/_uploads/_tiny_galerie/20150729/ferme-en-folie-2006-09-g-1-2ub_6cm.jpg) no-repeat top center fixed;
+  -webkit-background-size: cover; 
 }
 
 #baseline h1 {
@@ -93,7 +96,7 @@ a:hover {
 
 
 #logo{
-  color: #AB4917;
+  color: #fff;
   font-size: 35px;
   font-family: 'Pacifico', cursive;
   float: left;
