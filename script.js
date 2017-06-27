@@ -48,7 +48,7 @@ getUsername();
 
 function loadChallenges() {
   $.ajax(
-        {url : 'https://s3.eu-central-1.amazonaws.com/spintransfer/challenge.json',
+        {url : 'https://api.myjson.com/bins/l5u4b',
         type: 'GET',
         dataType: 'json'} 
   )
