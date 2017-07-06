@@ -159,12 +159,11 @@ button {
   cursor: pointer;
   transition: all 0.3s ease;
   
-  &:hover {
+button:hover {
     animation: gradient 10s ease infinite;
     font-size: 2.05vw;
     box-shadow: 0.2vw 0.2vw 0 lightcoral;
   }
-}
 
 @keyframes gradient {
   50% {
