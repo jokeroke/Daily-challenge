@@ -75,6 +75,7 @@ a:hover {
 	width:200px;
 	height:100px;
 	background:rgb(225, 0, 152);
+	text-align: center;
 }
 
 #baseline a:hover {
