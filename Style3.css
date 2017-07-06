@@ -71,6 +71,12 @@ a:hover {
   text-decoration: none;
 }
 
+.carre{
+	width:200px;
+	height:200px;
+	background:rgb(225, 0, 152);
+}
+
 #baseline a:hover {
   position: relative;
   top:1px;
