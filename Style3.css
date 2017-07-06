@@ -39,10 +39,6 @@ a {
   color: #fff;
 }
 
-a:hover {
-  text-decoration: none;
-  color: rgb(225, 0, 152);
-}
 
 /* Mis en forme de la baseline */
 #baseline{
@@ -139,16 +135,4 @@ footer p {
    padding: 0;
 }
 
-.bouton a {
-display:block;
-width:150px;
-line-height:50px;
-text-align:center;
-vertical-align:middle;
-background:url(images/bouton-noir.png) no-repeat;
-color:white;
-text-decoration:none;
-}
-.bouton a:hover {
-background:url(images/bouton-noir-2.png) no-repeat;
-}
+
