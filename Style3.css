@@ -67,10 +67,6 @@ a {
   text-decoration: none;
 }
 
-#baseline a:hover {
-  position: relative;
-  top:1px;
-}
 
 .feature,.defi{
   border: 1px solid #F2F2F2;
