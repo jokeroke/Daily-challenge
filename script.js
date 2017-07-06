@@ -78,7 +78,3 @@ function showChallenge(liste) {
 }
 
 loadChallenges();
-
-$(".title").hover(function(){
-  $(this).toggleClass("is-active");
-});
